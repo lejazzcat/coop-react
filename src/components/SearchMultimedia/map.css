@@ -1,0 +1,35 @@
+input {
+    width: 80%;
+    margin: 10px;
+    border: 1px solid gray;
+}
+
+input:focus {
+    border: 2px solid cornflowerblue;
+    box-shadow: none;
+    outline: none;
+}
+
+.card { 
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.cont-results {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 0 0 80px;
+}
+
+.cards {
+    padding: 30px 20px;
+    border: 2px solid cornflowerblue;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
